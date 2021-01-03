@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://restaurant_page/./src/index.js"],"names":[],"mappings":";;;;AAAA;AACA;;AAEA","file":"main.js","sourcesContent":["let content = document.getElementById('content');\nconsole.log(\"dupa\");\n\ncontent.innerText = \"ekeke\";\n"],"sourceRoot":""}
