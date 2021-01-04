@@ -1,4 +1,3 @@
-
 function pageLoad() {
     const content = document.getElementById('content');
     //header
@@ -30,12 +29,16 @@ function pageLoad() {
     })
 
     const contact = document.createElement('button');
+    contact.setAttribute('id', 'contact');
     contact.textContent = "Contact";
     header.appendChild(contact);
 
+    //content div
+    const pageContent = document.createElement('div');
+    pageContent.classList.add('tab-content');
+    pageContent.setAttribute('id', 'tab-content');
 
-    // const tab = document.createElement('li');
-    // menu.appendChild(tab)
+    content.appendChild(pageContent);
 
 }
 

@@ -2,6 +2,7 @@
 * {
     background-color: #24252a;
     box-sizing: border-box;
+    color: #edf0f1;
 }
 header {
     display: flex;
@@ -55,4 +56,10 @@ button {
 
 button:hover {
     background-color: rgba(0,136,169,0.8);
+}
+
+.tab-content {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 10px 10%;
 }
