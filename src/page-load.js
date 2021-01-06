@@ -40,6 +40,13 @@ function pageLoad() {
 
     content.appendChild(pageContent);
 
+
+    const footer = document.createElement('footer');
+    const footerText = document.createElement('p');
+    footerText.textContent = "Created by Sylwester Miecznikowski";
+    footerText.setAttribute('id', 'footer-text');
+    footer.appendChild(footerText);
+    content.appendChild(footer);
 }
 
 

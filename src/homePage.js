@@ -13,6 +13,8 @@ function homePage() {
     tabContent.appendChild(tabName);
     tabContent.appendChild(description);
     description.appendChild(paragraph);
+
+
 }
 
 export {homePage}

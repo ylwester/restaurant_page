@@ -12,7 +12,6 @@ function wipeContent() {
         }
 }
 
-
 function menuTabs() {
     homePage();
     const homeButton = document.getElementById('home');
