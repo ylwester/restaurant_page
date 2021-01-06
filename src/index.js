@@ -3,6 +3,7 @@ import'./styles.css';
 import {menuPage} from "./menuPage";
 import {aboutUsPage} from "./about-us-page";
 import {contactPage} from "./contactPage";
+import {homePage} from "./homePage";
 
 function wipeContent() {
     const tabContent = document.getElementById('tab-content');
@@ -13,9 +14,11 @@ function wipeContent() {
 
 
 function menuTabs() {
+    homePage();
     const homeButton = document.getElementById('home');
     homeButton.addEventListener('click', () => {
         wipeContent();
+        homePage();
     })
 
     const menuButton = document.getElementById('menu');
